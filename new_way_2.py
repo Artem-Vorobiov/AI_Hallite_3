@@ -26,3 +26,5 @@ while True:
 		command_queue.append(me.shipyard.spawn())
 
 	game.end_turn(command_queue)
+
+	#	These are words for GIT
