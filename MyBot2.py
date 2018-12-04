@@ -146,7 +146,7 @@ while True:
 	if me.halite_amount >= 1000 and not game_map[me.shipyard].is_occupied and len(me.get_ships()) <= 10:
 		command_queue.append(me.shipyard.spawn())
 	elif me.halite_amount >= 1000 and not game_map[me.shipyard].is_occupied\
-	and len(me.get_ships()) <= 13 and game.turn_number > 165:
+	and len(me.get_ships()) <= 13 and game.turn_number > 100:
 		command_queue.append(me.shipyard.spawn())
 
 	game.end_turn(command_queue)
